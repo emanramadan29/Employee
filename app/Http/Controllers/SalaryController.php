@@ -74,7 +74,7 @@ class SalaryController extends Controller
 
         $empsal=SalaryResource::collection(Salary::where('Month',now()->format('F'))->get());
 
-        return response()->json(['message'=>'Success','data'=>$empsal],200);
+        return response()->json(['message'=>'Success','data'=>$empsal ],200);
 
     }
 }

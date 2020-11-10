@@ -3,8 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="91cbb05c-150a-4ff8-8518-de8eee0eadce" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Model/Employee.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Employee.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Events/AddNewProduct.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Events/ItemCreated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SalaryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SalaryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Listeners/SendMail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Mail/ProductNewMail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Mail/emails.productMail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/emails/productMail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emails/ManagerMail.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +160,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Hulul" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CarStation" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -205,7 +211,7 @@
       <workItem from="1604570301805" duration="1907000" />
       <workItem from="1604574482976" duration="13349000" />
       <workItem from="1604937378357" duration="10042000" />
-      <workItem from="1605000562974" duration="21612000" />
+      <workItem from="1605000562974" duration="26133000" />
     </task>
     <servers />
   </component>
@@ -225,10 +231,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1602859809192" />
-    <state x="549" y="50" width="438" height="682" key="FileChooserDialogImpl" timestamp="1605023081738">
+    <state x="549" y="50" width="438" height="682" key="FileChooserDialogImpl" timestamp="1605039608924">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="50" width="438" height="682" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605023081738" />
+    <state x="549" y="50" width="438" height="682" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605039608924" />
     <state width="1493" height="204" key="GridCell.Tab.0.bottom" timestamp="1602932852868">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

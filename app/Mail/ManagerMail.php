@@ -7,7 +7,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class ProductNewMail extends Mailable
+class ManagerMail extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -16,9 +16,10 @@ class ProductNewMail extends Mailable
      *
      * @return void
      */
-    public function __construct()
+    public $totalsalary;
+    public function __construct($totalsalary)
     {
-        //
+        $totalsalary=$this->totalsalary;
     }
 
     /**
@@ -28,6 +29,6 @@ class ProductNewMail extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.productMail');
+        return $this->view('emails.ManagerMail',compact('totalsalary'));
     }
 }
