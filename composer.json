@@ -23,7 +23,9 @@
         "melihovv/laravel-shopping-cart": "^7.0",
         "olimortimer/laravelshoppingcart": "^4.0",
         "pusher/pusher-php-server": "~4.0",
-        "spatie/laravel-permission": "^3.17"
+        "spatie/laravel-cors": "^1.6",
+        "spatie/laravel-permission": "^3.17",
+        "tymon/jwt-auth": "^1.0"
     },
     "require-dev": {
         "facade/ignition": "^2.0",

@@ -176,7 +176,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         Spatie\Permission\PermissionServiceProvider::class,
-        Darryldecode\Cart\CartServiceProvider::class
+        Darryldecode\Cart\CartServiceProvider::class,
+         Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
 
 
 
