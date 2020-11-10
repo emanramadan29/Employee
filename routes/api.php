@@ -25,6 +25,10 @@ Route::group( ['middleware' => [ 'jwt.auth','cors','api']],  function(){
     Route::post('/employee/{id}','EmployeeController@update');
     Route::delete('/employee/{id}','EmployeeController@destroy');
 
+    Route::get('/salary','SalaryController@getMonthlySalary');
+
+
+
 } );
 
 
